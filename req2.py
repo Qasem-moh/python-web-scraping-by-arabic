@@ -35,14 +35,14 @@ print(all_by_id2)
 
 ####################By class##################
 
-byid = soup.find(class_='pageName')
+byid = soup.find(class_='story')
 print(byid)
 
-byid2 = soup.find("h2", class_='pageName')
+byid2 = soup.find("div", class_='story')
 print(byid2)
 
-all_by_id = soup.find_all(class_='pageName')
+all_by_id = soup.find_all(class_='story')
 print(all_by_id)
 
-all_by_id2 = soup.find_all("h2", class_='pageName')
+all_by_id2 = soup.find_all("div", class_='story')
 print(all_by_id2)
