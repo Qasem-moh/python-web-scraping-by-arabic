@@ -10,4 +10,4 @@ s = BeautifulSoup(req, 'html.parser')
 collector = s.find_all(class_='')
 
 for email in collector:
-    print(email)
+    print(email.text[16:])#to split text from 16
