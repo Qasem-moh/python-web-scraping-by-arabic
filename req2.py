@@ -35,14 +35,14 @@ print(all_by_id2)
 
 ####################By class##################
 
-byid = soup.find(class_='story')
-print(byid)
+byClass = soup.find(class_='story')
+print(byClass)
 
-byid2 = soup.find("div", class_='story')
-print(byid2)
+byClass2 = soup.find("div", class_='story')
+print(byClass2)
 
-all_by_id = soup.find_all(class_='story')
-print(all_by_id)
+all_by_class = soup.find_all(class_='story')
+print(all_by_class)
 
-all_by_id2 = soup.find_all("div", class_='story')
-print(all_by_id2)
+all_by_class2 = soup.find_all("div", class_='story')
+print(all_by_class2)
