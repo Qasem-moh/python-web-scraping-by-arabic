@@ -8,4 +8,6 @@ req = requests.get(url).text
 s = BeautifulSoup(req, 'html.parser')
 
 collector = s.find_all(class_='')
-print(collector)
+
+for email in collector:
+    print(email)
